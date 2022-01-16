@@ -1,7 +1,7 @@
 !/bin/bash
 
-LOG_DIR=/var/log/mullvad-vpn #dir to clean
-LOG_FILE=daemon.old.log
+LOG_DIR=/var/log/ #dir to clean
+LOG_FILE=daemon.old.log #file to clean
 ROOT_UID=0 #only root exec
 LINES=50 #default no. of saved lines
 E_XCD=66 #can't change the directory
