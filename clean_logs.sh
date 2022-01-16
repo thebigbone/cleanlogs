@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 LOG_DIR=/var/log/ #dir to clean
 LOG_FILE=daemon.old.log #file to clean
